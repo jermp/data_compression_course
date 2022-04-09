@@ -1,5 +1,6 @@
 #pragma once
 
+#include <fstream>
 #include <immintrin.h>  // for _mm_popcnt_u64
 
 /* return the number of 64-bit words for num_bits */
