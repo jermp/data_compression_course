@@ -1,6 +1,6 @@
 #!/bin/sh
 
-gzip -dc lists.txt.gz > lists.txt
+gunzip -k lists.txt.gz
 
 # g++ -std=c++11 -DDEBUG compress.cpp -o compress
 # g++ -std=c++11 -DDEBUG decompress.cpp -o decompress
