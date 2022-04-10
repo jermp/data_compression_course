@@ -18,14 +18,14 @@ To compile for maximum speed, disable all asserts (`-DNDEBUG`) and also use the 
 	
 Now, first unzip the file `lists.txt.gz` which contains 10 sorted integer lists:
 
-	gunzip lists.txt.gz
+	gunzip -k lists.txt.gz
 
 Then use the program `./compress` to actually compress the lists.
 The program expects the following arguments:
 
 	Usage: ./compress [type] [input_lists_filename] [output_filename]
 
-where `type` is one of the following: `gamma`, `delta`, `vbyte`, `rice_k1`, or `rice_k2`.	
+where `type` is one of the following: `gamma`, `delta`, `vbyte`, `rice_k1`, or `rice_k2`.
 
 Below, some examples with type `gamma`.
 

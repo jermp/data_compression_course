@@ -1,4 +1,6 @@
-gunzip lists.txt.gz
+#!/bin/sh
+
+gzip -dc lists.txt.gz > lists.txt
 
 # g++ -std=c++11 -DDEBUG compress.cpp -o compress
 # g++ -std=c++11 -DDEBUG decompress.cpp -o decompress
@@ -33,4 +35,4 @@ rm out_rice_k2.bin
 ./decompress vbyte out_vbyte.bin
 rm out_vbyte.bin
 
-gzip lists.txt
+rm lists.txt

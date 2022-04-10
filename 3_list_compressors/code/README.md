@@ -23,7 +23,7 @@ To compile for maximum speed, disable all asserts (`-DNDEBUG`) and also use the 
     
 Now, first unzip the file `lists.txt.gz` in the folder `2_integer_codes/code` which contains 10 sorted integer lists:
 
-    gunzip ../../2_integer_codes/code/lists.txt.gz
+    gunzip -k ../../2_integer_codes/code/lists.txt.gz
 
 Then use the program `./compress` to actually compress the lists.
 The program expects the following arguments:
