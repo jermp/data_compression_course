@@ -1,4 +1,6 @@
-gunzip ../../2_integer_codes/code/lists.txt.gz
+#!/bin/sh
+
+gunzip -k ../../2_integer_codes/code/lists.txt.gz
 
 # g++ -std=c++11 -DDEBUG compress.cpp -o compress
 # g++ -std=c++11 -DDEBUG -mbmi2 -msse4.2 decompress.cpp -o decompress
@@ -18,4 +20,4 @@ rm out_ef.bin
 ./decompress bic out_bic.bin
 rm out_bic.bin
 
-gzip ../../2_integer_codes/code/lists.txt
+rm ../../2_integer_codes/code/lists.txt
