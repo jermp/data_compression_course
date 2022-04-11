@@ -51,4 +51,4 @@ with a 2.6 GHz 6-Core Intel Core i7 processor, I got the following results
 | delta  | 4.96       | 4.84     |
 | rice k=1  | 3.49       | 4.77     |
 | rice k=2  | 3.89       | 4.77     |
-| vbyte  | 8.11       | 0.95     |
+| vbyte  | 8.11       | 1.95     |

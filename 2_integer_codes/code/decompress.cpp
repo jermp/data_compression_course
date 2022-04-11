@@ -27,6 +27,7 @@ void decompress(std::string const& input_filename, ReadFunction read) {
     uint64_t num_ints = 0;
 
     std::cout << "decompressing " << num_lists << " lists..." << std::endl;
+    uint64_t sum = 0;
 
     auto start = clock_t::now();
 
@@ -39,6 +40,7 @@ void decompress(std::string const& input_filename, ReadFunction read) {
             uint32_t x = read(it) + prev_x;
             assert(x >= prev_x);
             prev_x = x;
+            sum += x;
         }
 
         num_ints += list_size;
@@ -46,6 +48,9 @@ void decompress(std::string const& input_filename, ReadFunction read) {
 
     auto stop = clock_t::now();
     auto elapsed = std::chrono::duration_cast<duration_t>(stop - start);
+
+    /* print sum to be sure we do not optimize away the loop */
+    std::cout << "(ignore: " << sum << ")" << std::endl;
 
     std::cout << "decompressed " << num_ints << " integers in "
               << elapsed.count() << " microsecs" << std::endl;
