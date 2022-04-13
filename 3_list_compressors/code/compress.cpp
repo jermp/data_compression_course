@@ -21,6 +21,7 @@ void compress(std::string const& input_lists_filename,
     CoDec codec;
     uint64_t num_ints = 0;
     uint64_t num_lists = 0;
+    std::vector<uint32_t> list;
 
     while (!in.eof()) {
         uint64_t list_size = 0;
@@ -30,8 +31,6 @@ void compress(std::string const& input_lists_filename,
                       << std::endl;
 
             num_lists += 1;
-
-            std::vector<uint32_t> list;
             list.reserve(list_size);
 
             for (uint64_t i = 0; i != list_size; ++i) {
@@ -44,8 +43,10 @@ void compress(std::string const& input_lists_filename,
             codec.save(out);
 
             num_ints += list_size;
+            list.clear();
         }
     }
+    in.close();
 
     std::cout << "compressed " << num_lists << " lists" << std::endl;
     std::cout << "(" << num_ints << " integers)" << std::endl;

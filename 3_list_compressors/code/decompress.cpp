@@ -20,11 +20,9 @@ void decompress(std::string const& input_filename) {
 
     uint64_t num_lists = 0;
     uint64_t num_ints = 0;
-
-    std::vector<uint32_t> list;  // to be decoded
+    std::vector<uint32_t> list;
 
     auto start = clock_t::now();
-
     while (true) {
         codec.load(in);
         if (in.eof()) break;
@@ -34,7 +32,6 @@ void decompress(std::string const& input_filename) {
         num_ints += list_size;
         num_lists += 1;
     }
-
     auto stop = clock_t::now();
     auto elapsed = std::chrono::duration_cast<duration_t>(stop - start);
 
