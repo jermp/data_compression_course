@@ -70,6 +70,14 @@ These algorithms have now become indispensable knowledge across many fields in c
 
 2. Alistair Moffat. 2019. *Huffman Coding*. ACM Computing Surveys. 52, 4, Article 85 (July 2020), 35 pages. https://doi.org/10.1145/3342555
 
+### Creator
+
+Giulio Ermanno Pibiri ([jermp](https://github.com/jermp))
+
+### Contributors
+
+- [tansy](https://github.com/jermp/data_compression_course/commits?author=tansy): adjustments to some scripts.
+- [lisifra96](https://github.com/jermp/data_compression_course/commits?author=lisifra96): Kraft-McMillan inequality proof.
 
 <!-- ### QR Codes
 
