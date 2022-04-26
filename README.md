@@ -3,14 +3,14 @@ A Crash Course on Data Compression
 
 The need for storing data in compressed form is becoming more and more important
 due to the ever-growing rate of data produced on a daily basis.
-To keep up with this data deluge, data compression
+To keep up with this data deluge, *data compression*
 is a mandatory step to deliver good quality of service in concrete applications.
 
 In this introductory course you will learn about fundamental
 data compression algorithms that are all widely adopted by
 tools that we use every day, like filesystems, computer networks,
 search engines, and databases.
-These algorithms have now become indispensable knowledge across many fields in computing, including Information Retriveal, Machine Learning, Natural Language Processing, Applied Physics, and Bioinformatics.
+These algorithms have now become indispensable knowledge across many fields in computing, including Information Retrieval, Machine Learning, Natural Language Processing, Applied Physics, and Bioinformatics.
 
 
 ### Syllabus
