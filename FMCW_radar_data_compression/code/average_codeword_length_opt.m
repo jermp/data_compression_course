@@ -4,8 +4,8 @@
 % 
 % This MATLAB script compresses a .wav file using Linear Predictive Coding
 % and Huffman Coding. It changes the length of the FIR filter iteration by
-% iteration in order to find the optimum value that minimize the mean word 
-% length.
+% iteration in order to find the optimum value that minimize the average
+% codeword length.
 %
 % WARNING: it has a quite long execution time.
 
@@ -17,7 +17,7 @@ clc
 [data,~] = audioread('cleanCorsa2_CUT.wav','native');
 audioinfo('cleanCorsa2_CUT.wav')
 
-%--------MEAN WORD LENGTH EVALUATION--------%
+%--------AVERAGE CODEWORD LENGTH EVALUATION--------%
 maxLength = 150;
 FIRLEN = 1:maxLength;
 
@@ -52,6 +52,6 @@ figure(1)
 plot(FIRLEN,meanL,'LineWidth',2)
 ylabel('bits')
 xlabel('FIR length')
-title('Mean word length')
+title('Average Codeword Length')
 grid on
 
