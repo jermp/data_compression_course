@@ -11,16 +11,16 @@ Prediction”. In: Journal of Mathematics and Physics 25.1-4 (1946), pp. 261–2
 https://doi.org/10.1002/sapm1946251261. \
 \
 [2] David A. Huffman. “A Method for the Construction of Minimum-Redundancy Codes”. In:
-Proceedings of the IRE 40.9 (1952), pp. 1098–1101. DOI: 10.1109/JRPROC.1952.273898.\
+Proceedings of the IRE 40.9 (1952), pp. 1098–1101. DOI: https://doi.org/10.1109/JRPROC.1952.273898. \
 \
 [3] J. Makhoul. “Linear prediction: A tutorial review”. In: Proceedings of the IEEE 63.4 (1975),
-pp. 561–580. DOI: 10.1109/PROC.1975.9792.\
+pp. 561–580. DOI: https://doi.org/10.1109/PROC.1975.9792. \
 \
 [4] S.M. Kay and S.L. Marple. “Spectrum analysis—A modern perspective”. In: Proceedings of
-the IEEE 69.11 (1981), pp. 1380–1419. DOI: 10.1109/PROC.1981.12184.\
+the IEEE 69.11 (1981), pp. 1380–1419. DOI: https://doi.org/10.1109/PROC.1981.12184. \
 \
 [5] D. O’Shaughnessy. “Linear predictive coding”. In: IEEE Potentials 7.1 (1988), pp. 29–32. DOI:
-10.1109/45.1890.
+https://doi.org/10.1109/45.1890.
 
  ## Authors 
  Francesco Mancuso ([mandugo](https://github.com/mandugo))\
