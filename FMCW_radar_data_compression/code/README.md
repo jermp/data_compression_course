@@ -1,4 +1,4 @@
-# FMCW radar data compression
+# FMCW radar data compression code
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/w0hXx1q/made-with-matlab.png" alt="made-with-matlab" border="0"></a> 
 
@@ -7,5 +7,5 @@
   > :warning: **The execution takes a lot** :warning: 
 - `FMCW_LPC_analysis.m`: this function is used in the above scripts. It does the estimation of the LPC FIR filter coefficients, it filters the input signal and gives in output the filter coefficients, the residual signal and the variance of the residual signal.
 
-  > We used the variance of the residual signal as a quality metric during the developing to understand how the LPC was affecting the amplitude of the signal.
+  > We used the variance of the residual signal as a quality metric during the analysis phase to understand how the LPC was affecting the amplitude of the signal.
 
