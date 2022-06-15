@@ -11,3 +11,5 @@
 
 ## Micro benchmark
 The code has been run on Ubuntu 21.10, the machine has an Intel® Core™ i7-860 @ 2.80GHz and 24GB of RAM. The execution time of `FMCW_radar_data_compression.m` is about 2.15 seconds, while the execution time of `average_codeword_length_opt.m` is about 639.5 seconds.
+## 
+> Written with [StackEdit](https://stackedit.io/) and [ForTheBadge](https://forthebadge.com/).
