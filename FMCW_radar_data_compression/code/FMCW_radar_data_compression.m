@@ -34,7 +34,7 @@ bitstream = huffmanenco(residual,dict);
 
 toc
 
-%--------MEAN WORD LENGTH EVALUATION--------%
+%--------AVERAGE CODEWORD LENGTH EVALUATION--------%
 totaL = 0;
 meanL = 0;
 for ind2 = 1:size(dict,1)
