@@ -74,10 +74,11 @@ These algorithms have now become indispensable knowledge across many fields in c
 
 Giulio Ermanno Pibiri ([jermp](https://github.com/jermp))
 
-### Contributors
+### A special thank to
 
 - [tansy](https://github.com/jermp/data_compression_course/commits?author=tansy): adjustments to some scripts.
 - [lisifra96](https://github.com/jermp/data_compression_course/commits?author=lisifra96): Kraft-McMillan inequality proof.
+- [pashadag](https://github.com/pashadag): feedback.
 
 <!-- ### QR Codes
 
